@@ -65,13 +65,18 @@ where `α > 0` is the first shape parameter and `β > 0` is the second shape par
 ## Usage
 
 ```javascript
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-betaprime-logpdf/tags). For example,
+
+```javascript
 import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@v0.2.1-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@deno/mod.js';
 ```
 
 #### logpdf( x, alpha, beta )
@@ -166,7 +171,7 @@ y = mylogPDF( 0.3 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@v0.2.1-deno/mod.js';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@deno/mod.js';
 
 var alpha;
 var beta;

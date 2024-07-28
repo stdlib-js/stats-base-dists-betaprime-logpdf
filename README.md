@@ -65,13 +65,18 @@ where `α > 0` is the first shape parameter and `β > 0` is the second shape par
 ## Usage
 
 ```javascript
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-betaprime-logpdf/tags). For example,
+
+```javascript
 import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@v0.2.2-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@esm/index.mjs';
 ```
 
 #### logpdf( x, alpha, beta )
@@ -171,7 +176,7 @@ y = mylogPDF( 0.3 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@v0.2.2-esm/index.mjs';
+import logpdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logpdf@esm/index.mjs';
 
 var alpha;
 var beta;

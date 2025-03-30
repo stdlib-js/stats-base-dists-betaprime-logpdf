@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-03-30)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2366870`](https://github.com/stdlib-js/stdlib/commit/23668709f2da0d4a3e3f5eb401eebaf03eb328cd) - **refactor:** use const double for parameter in `stats/base/dists/betaprime/logpdf` [(#6452)](https://github.com/stdlib-js/stdlib/pull/6452) _(by Neeraj Pathak)_
 -   [`32bcc18`](https://github.com/stdlib-js/stdlib/commit/32bcc18c0da52986b47f0a6894e6566205e2fb91) - **feat:** add C implementation for `stats/base/dists/betaprime/logpdf` [(#4059)](https://github.com/stdlib-js/stdlib/pull/4059) _(by Neeraj Pathak, stdlib-bot)_
 -   [`68894a1`](https://github.com/stdlib-js/stdlib/commit/68894a16cc999587091fdc3b014d21b64d3dde79) - **bench:** refactor random number generation in `stats/base/dists/betaprime` [(#4840)](https://github.com/stdlib-js/stdlib/pull/4840) _(by Karan Anand)_
 

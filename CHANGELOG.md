@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-04-03)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3440](https://github.com/stdlib-js/stdlib/issues/3440)
+[#3440](https://github.com/stdlib-js/stdlib/issues/3440), [#6500](https://github.com/stdlib-js/stdlib/issues/6500)
 
 </section>
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8b5f811`](https://github.com/stdlib-js/stdlib/commit/8b5f811082ea3dd98f68b9863531fc2c80835020) - **chore:** address commit comments [(#6528)](https://github.com/stdlib-js/stdlib/pull/6528) _(by Muhmmad Saad)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`2366870`](https://github.com/stdlib-js/stdlib/commit/23668709f2da0d4a3e3f5eb401eebaf03eb328cd) - **refactor:** use const double for parameter in `stats/base/dists/betaprime/logpdf` [(#6452)](https://github.com/stdlib-js/stdlib/pull/6452) _(by Neeraj Pathak)_
 -   [`32bcc18`](https://github.com/stdlib-js/stdlib/commit/32bcc18c0da52986b47f0a6894e6566205e2fb91) - **feat:** add C implementation for `stats/base/dists/betaprime/logpdf` [(#4059)](https://github.com/stdlib-js/stdlib/pull/4059) _(by Neeraj Pathak, stdlib-bot)_
@@ -49,9 +50,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Muhmmad Saad
 -   Neeraj Pathak
 
 </section>

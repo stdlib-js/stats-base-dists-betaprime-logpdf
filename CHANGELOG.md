@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-03)
+## Unreleased (2025-04-29)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`b2aa3f7`](https://github.com/stdlib-js/stdlib/commit/b2aa3f7fc67e416f476455522f9189d586915d2e) - **docs:** replace manual `for` loop in examples [(#6830)](https://github.com/stdlib-js/stdlib/pull/6830) _(by Harsh)_
 -   [`8b5f811`](https://github.com/stdlib-js/stdlib/commit/8b5f811082ea3dd98f68b9863531fc2c80835020) - **chore:** address commit comments [(#6528)](https://github.com/stdlib-js/stdlib/pull/6528) _(by Muhmmad Saad)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`2366870`](https://github.com/stdlib-js/stdlib/commit/23668709f2da0d4a3e3f5eb401eebaf03eb328cd) - **refactor:** use const double for parameter in `stats/base/dists/betaprime/logpdf` [(#6452)](https://github.com/stdlib-js/stdlib/pull/6452) _(by Neeraj Pathak)_
@@ -50,8 +51,9 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Harsh
 -   Karan Anand
 -   Muhmmad Saad
 -   Neeraj Pathak
